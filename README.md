@@ -1,11 +1,117 @@
-<div align="center">
+# မြန်မာ AI စီးပွားရေးချိတ်ဆက်ရေး မဟာဗျူဟာ (Myanmar AI Bridge)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+> **Managing Director နှင့် အဆင့်မြင့်စီမံခန့်ခွဲမှုအဖွဲ့အတွက် Hongqiao Tech Week 2026 (ရှန်ဟိုင်း) ခရီးစဉ်အကြို မဟာဗျူဟာ သုံးသပ်လေ့လာမှု ဝက်ဘ်ဆိုက်**
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## ၁။ စီမံကိန်း မိတ်ဆက် (Project Overview)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+ဤဝက်ဘ်ဆိုက်သည် **Hongqiao Tech Week 2026 (၂၀–၂၂ နိုဝင်ဘာ ၂၀၂၆၊ NECC ရှန်ဟိုင်း)** သို့ မသွားရောက်မီ ကုမ္ပဏီ Managing Director နှင့် အဆင့်မြင့် ဆုံးဖြတ်ချက်ချမှတ်သူများ လေ့လာသုံးသပ်နိုင်ရန် သဘာဝကျပြီး နားလည်လွယ်သော မြန်မာဘာသာဖြင့် ဖန်တီးထားသည့် အပြန်အလှန် လေ့လာရေး စနစ်ဖြစ်ပါသည်။
 
-</div>
+### အဓိက မဟာဗျူဟာ သဘောတရား:
+> *"ကျွန်ုပ်တို့ ကုမ္ပဏီသည် အရည်အသွေးပြည့်မီသော တရုတ် AI နည်းပညာပံ့ပိုးသူများနှင့် မြန်မာ့စီးပွားရေးလုပ်ငန်းများအကြား ပေါင်းကူးတံတားအဖြစ် ချိတ်ဆက်ဆောင်ရွက်ရန် အခွင့်အလမ်းကို ရှာဖွေလေ့လာမည်။ အခြေခံ AI မော်ဒယ်များကိုယ်တိုင် တည်ဆောက်မည့်အစား တရားဝင်ခွင့်ပြုချက်ရ AI API များနှင့် cloud အခြေခံအဆောက်အအုံများကို အသုံးပြုပြီး ဒေသတွင်း နည်းပညာတပ်ဆင်မှု၊ ဖောက်သည်ဝန်ဆောင်မှု၊ သင်တန်းပေးမှုနှင့် စဉ်ဆက်မပြတ် ထိန်းသိမ်းစောင့်ရှောက်မှုတို့ ပါဝင်သော မြန်မာဘာသာအခြေပြု AI Agent လုပ်ငန်းသုံး အက်ပလီကေးရှင်းများကို ဖန်တီးသွားမည်ဖြစ်သည်။"*
+
+---
+
+## ၂။ ပါဝင်သော အဓိက အဆင့် ၇ ဆင့် (Seven Guided Steps)
+
+1. **အဆင့် ၁ — အခွင့်အလမ်း (Opportunity):** စျေးကွက် လိုအပ်ချက်၊ မဏ္ဍိုင် ၃ ရပ်နှင့် လက်တွေ့လုပ်ငန်းခွင် ယှဉ်ကြည့်ချက် (Before vs After)။
+2. **အဆင့် ၂ — AI စီးပွားရေးစနစ် (Ecosystem Vision):** ၄ ဆင့်ပါ Flow Diagram နှင့် လက်တွေ့ အသုံးချစနစ် ၄ မျိုး (Customer Service, Order Assistant, Document Assistant, Workflow Automation)။
+3. **အဆင့် ၃ — တရုတ် AI မိတ်ဖက်များ (Supplier Strategy):** မိတ်ဖက်ရှာဖွေရေး ရည်မှန်းချက် ၃ ရပ်၊ Supplier ၅ မျိုး၊ လျာထားကုမ္ပဏီများ Directory (Qwen, DeepSeek, GLM, Kimi, MiniMax, ByteDance) နှင့် ပူးပေါင်းဆောင်ရွက်မှု ပုံစံ ၄ မျိုး။
+4. **အဆင့် ၄ — ရှန်ဟိုင်းပွဲ အစီအစဉ် (Shanghai Event Plan):** အတည်ပြုပွဲ အချက်အလက်များ၊ ၃ ရက်တာ စီစဉ်ထားသော Itinerary နှင့် ပြင်ဆင်မှု စစ်ဆေးချက်စာရင်း (Checklist)။
+5. **အဆင့် ၅ — Supplier စိစစ်ရွေးချယ်မှု (Supplier Evaluation):** အမှတ် ၁၀၀ အလေးပေး ရမှတ်ဇယား (Scorecard Tool)၊ မဖြစ်မနေ ပြည့်မီရမည့် ၅ ချက် (Mandatory Eligibility Checks) နှင့် LocalStorage သိမ်းဆည်းမှု။
+6. **အဆင့် ၆ — ဝင်ငွေနှင့် ဘဏ္ဍာရေးတွက်ချက်မှု (Business Model & Budget):** ဝင်ငွေရနိုင်သော လမ်းကြောင်း ၆ မျိုး၊ အပြန်အလှန် တွက်ချက်နိုင်သော Calculator၊ Roadmap ၄ ဆင့်နှင့် စွန့်စားရမှု ၈ ရပ် (Risk Register)။
+7. **အဆင့် ၇ — ဒါရိုက်တာ အတည်ပြုချက် (Director Decision & Approval):** မဟာဗျူဟာ ခွင့်ပြုချက် ၃ ရပ်၊ Review Checklist၊ သဘောထား မှတ်ချက်နှင့် A4 အစီရင်ခံစာ ပုံနှိပ်/PDF ထုတ်ယူမှု။
+
+---
+
+## ၃။ အထူးလုပ်ဆောင်ချက်များ (Key Interactive Features)
+
+- **Mode A (ဒါရိုက်တာ တင်ပြမှု - ၅–၈ မိနစ်):** အနှစ်ချုပ်နှင့် အဓိက အချက် ၃ ချက်ကို ရှင်းလင်းစွာ ပြသသော မုဒ်။
+- **Mode B (အသေးစိတ် စိစစ်မှု):** သုတေသန အချက်အလက်များနှင့် ဥပဒေ/နည်းပညာဆိုင်ရာ အသေးစိတ်များ ဖတ်ရှုနိုင်သော မုဒ်။
+- **ဘဏ္ဍာရေး Calculator:** ဖောက်သည် အရေအတွက်နှင့် API ဈေးနှုန်း ပြောင်းလဲမှုအလိုက် အကျိုးအမြတ်ကို ချက်ချင်း အလိုအလျောက် တွက်ချက်ပေးခြင်း။
+- **Supplier Scorecard:** ၁၀၀ မှတ် အလေးပေး ရမှတ်နှင့် စစ်ဆေးချက် ၅ ချက် မပြည့်မီပါက *"ထပ်မံစစ်ဆေးရန် လိုအပ်သည်"* ဟု သတိပေးသည့် စနစ်။
+- **A4 Executive Report ပုံနှိပ်စနစ်:** Browser ၏ `Print` သို့မဟုတ် `Ctrl + P` ဖြင့် ဒါရိုက်တာများ လက်မှတ်ထိုး စိစစ်နိုင်သော ပုံစံဖြင့် PDF / စက္ကူ ပုံနှိပ်နိုင်ခြင်း။
+- **Local Storage စနစ်:** မိမိစက်/Browser တွင် ပြင်ဆင်မှတ်သားချက်များကို အလိုအလျောက် လုံခြုံစွာ မှတ်သားထားခြင်း။
+
+---
+
+## ၄။ Windows 11 PowerShell ဖြင့် စတင်အသုံးပြုပုံ (Local Setup)
+
+Windows 11 စက်တွင် ဤဝက်ဘ်ဆိုက်ကို Local စမ်းသပ်မောင်းနှင်ရန် အောက်ပါ အဆင့်အတိုင်း လုပ်ဆောင်ပါ-
+
+### အဆင့် ၁: လိုအပ်သော ဆော့ဖ်ဝဲလ်များ စစ်ဆေးခြင်း
+PowerShell (သို့မဟုတ် Windows Terminal) ကို ဖွင့်ပြီး Node.js ရှိမရှိ စစ်ဆေးပါ-
+```powershell
+node -v
+npm -v
+```
+*(Node.js v18 သို့မဟုတ် v20 LTS ဗားရှင်း ရှိရန် လိုအပ်ပါသည်။ မရှိသေးပါက https://nodejs.org မှ ဒေါင်းလုဒ်ရယူပါ)*
+
+### အဆင့် ၂: Project Directory သို့ သွားခြင်းနှင့် Dependency များ တပ်ဆင်ခြင်း
+```powershell
+# ဖိုင်တွဲထဲသို့ ဝင်ရောက်ခြင်း
+cd myanmar-ai-bridge
+
+# လိုအပ်သော packages များ install လုပ်ခြင်း
+npm install
+```
+
+### အဆင့် ၃: Development Server စတင်လည်ပတ်ခြင်း
+```powershell
+npm run dev
+```
+
+### အဆင့် ၄: ဝက်ဘ်ဆိုက်ကို Browser တွင် ဖွင့်လှစ်ခြင်း
+Browser (Chrome, Edge သို့မဟုတ် Brave) တွင် အောက်ပါလိပ်စာကို ရိုက်ထည့်၍ ကြည့်ရှုပါ-
+```
+http://localhost:3000
+```
+
+### အဆင့် ၅: Production Build စမ်းသပ်ခြင်း
+```powershell
+npm run build
+```
+*(အမှားအယွင်းမရှိ `dist/` ဖိုင်တွဲ ထွက်ပေါ်လာမည် ဖြစ်ပါသည်)*
+
+---
+
+## ၅။ Cloudflare Pages သို့ အခမဲ့ Deploy ပြုလုပ်နည်း (Deployment Guide)
+
+ဤဝက်ဘ်ဆိုက်သည် Static Single Page Application (SPA) ဖြစ်သောကြောင့် Cloudflare Pages တွင် အခမဲ့၊ အလွန်မြန်ဆန်စွာနှင့် SSL အလိုအလျောက်ပါဝင်စွာ လွှင့်တင်နိုင်ပါသည်။
+
+### အဆင့် ၁: GitHub Desktop ဖြင့် ကုဒ်တင်ခြင်း
+1. **GitHub Desktop** ဆော့ဖ်ဝဲလ်ကို ဖွင့်ပါ။
+2. `File` > `Add Local Repository` ကို ရွေးပြီး ဤ `myanmar-ai-bridge` ဖိုင်တွဲကို ရွေးပါ။
+3. Commit message တွင် `Initial release of Myanmar AI Bridge briefing` ဟု ရိုက်ထည့်ပြီး **Commit to main** ကို နှိပ်ပါ။
+4. **Publish repository** ကို နှိပ်ပြီး မိမိ၏ GitHub အကောင့်သို့ တင်ပါ (Private သို့မဟုတ် Public ကြိုက်နှစ်သက်ရာ ရွေးချယ်နိုင်သည်)။
+
+### အဆင့် ၂: Cloudflare Pages နှင့် ချိတ်ဆက်ခြင်း
+1. [Cloudflare Dashboard](https://dash.cloudflare.com/) သို့ သွားပြီး Login ဝင်ပါ။
+2. ဘယ်ဘက်မီနူးရှိ **Workers & Pages** > **Create application** > **Pages** > **Connect to Git** ကို နှိပ်ပါ။
+3. မိမိ၏ GitHub အကောင့်ကို ချိတ်ဆက်ပြီး `myanmar-ai-bridge` repository ကို ရွေးပါ။
+
+### အဆင့် ၃: Build Settings သတ်မှတ်ခြင်း
+အောက်ပါအတိုင်း ဖြည့်သွင်းပါ-
+- **Project name:** `myanmar-ai-bridge`
+- **Production branch:** `main`
+- **Framework preset:** `Vite` (သို့မဟုတ် `None`)
+- **Build command:** `npm run build`
+- **Build output directory:** `dist`
+
+### အဆင့် ၄: Deploy Website နှိပ်ခြင်း
+- **Save and Deploy** ကို နှိပ်ပါ။
+- ၁ မိနစ်ခန့်အတွင်း Cloudflare က Build လုပ်ပြီး အခမဲ့ ဒိုမိန်းလိပ်စာ (ဥပမာ `https://myanmar-ai-bridge.pages.dev`) ရရှိမည် ဖြစ်ပါသည်။
+
+### အဆင့် ၅: Managing Director ထံသို့ မျှဝေခြင်း
+- ရရှိလာသော `https://myanmar-ai-bridge.pages.dev` လင့်ခ်ကို Managing Director ထံသို့ WhatsApp, Telegram သို့မဟုတ် အီးမေးလ်ဖြင့် ပေးပို့နိုင်ပါသည်။
+- Director သည် မည်သည့်ကွန်ပျူတာ၊ ဖုန်း၊ Tablet ဖြင့်မဆို ချက်ချင်း ဝင်ရောက်လေ့လာနိုင်ပြီး လိုအပ်သော အဆင့်များကို Bookmark ပြုလုပ်နိုင်ပါသည်။
+
+### အဆင့် ၆: နောင်တွင် အချက်အလက်များ မွမ်းမံလိုပါက
+ကုဒ် သို့မဟုတ် အချက်အလက်များကို ပြင်ဆင်ပြီး GitHub Desktop တွင် **Commit & Push** ပြုလုပ်လိုက်ရုံဖြင့် Cloudflare Pages က အလိုအလျောက် Website ကို update ပြုလုပ်ပေးသွားမည် ဖြစ်ပါသည်။
+
+---
+
+## ၆။ ဥပဒေနှင့် စည်းကမ်းဆိုင်ရာ ဖော်ပြချက် (Legal Disclaimer)
+
+ဤဝက်ဘ်ဆိုက်သည် ကုမ္ပဏီအတွင်း မဟာဗျူဟာဆွေးနွေးရန် ပြင်ဆင်ထားသော စီမံကိန်းအဆိုပြုချက်ဖြစ်ပြီး Hongqiao Tech Week ၏ တရားဝင်ဝက်ဘ်ဆိုက် မဟုတ်ပါ။ ဖော်ပြပါ ကုမ္ပဏီအမည်များနှင့် နည်းပညာများသည် သုတေသနပြုရန် ရည်ရွယ်ချက်အတွက်သာ ဖြစ်ပြီး မိတ်ဖက်အဖြစ် အတည်ပြုထားခြင်း မဟုတ်သေးပါ။

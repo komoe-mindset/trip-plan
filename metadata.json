@@ -1,0 +1,6 @@
+{
+  "name": "မြန်မာ AI စီးပွားရေးချိတ်ဆက်ရေး မဟာဗျူဟာ",
+  "description": "Hongqiao Tech Week 2026 ရှန်ဟိုင်းပွဲ မတိုင်မီ ဒါရိုက်တာနှင့် စီမံခန့်ခွဲမှုအဖွဲ့အတွက် မြန်မာ AI စီးပွားရေးစနစ် မဟာဗျူဟာ အပြန်အလှန်လေ့လာသုံးသပ်မှု ဝက်ဘ်ဆိုက် (Myanmar AI Bridge)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

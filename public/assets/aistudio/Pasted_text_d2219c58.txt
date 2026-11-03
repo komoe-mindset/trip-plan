@@ -1,0 +1,885 @@
+# MASTER PROMPT — Build a Myanmar-Language Interactive Director Briefing Website
+
+## ROLE
+
+You are a senior React developer, UX/UI designer, business strategy consultant, and Cloudflare Pages deployment engineer.
+
+Build a complete, production-ready, responsive, interactive website for a Managing Director to review a proposed Myanmar AI Business Ecosystem strategy before attending Hongqiao Tech Week 2026 in Shanghai.
+
+This is a real website implementation request, not a design mockup.
+
+Create the actual project files, write the working application, test it, and prepare it for Cloudflare Pages deployment.
+
+**Project name:** `myanmar-ai-bridge`
+
+**Website title:** မြန်မာ AI စီးပွားရေးချိတ်ဆက်ရေး မဟာဗျူဟာ
+
+**Short brand:** Myanmar AI Bridge
+
+**Event:** Hongqiao Tech Week 2026
+
+**Event dates:** 20–22 November 2026
+
+**Event location:** National Exhibition and Convention Center, Shanghai, China.
+
+**Target audience:** Company Managing Director, senior management, and business decision-makers.
+
+---
+
+# 1. PRIMARY OBJECTIVE
+
+Build a website that explains the business proposal to a Managing Director in simple Myanmar language, using a clear, step-by-step interactive presentation.
+
+The Director should understand:
+
+1. Why attending Hongqiao Tech Week is strategically valuable.
+2. Why Chinese AI technology suppliers may create opportunities for Myanmar businesses.
+3. How our company can become a bridge between Chinese AI technology and Myanmar customers.
+4. What an AI Agent Business Ecosystem means in practice.
+5. What technology suppliers we need.
+6. What we plan to do at the exhibition.
+7. How suppliers will be evaluated.
+8. What business models and potential revenues we can explore.
+9. What risks must be controlled.
+10. What management approval is needed.
+
+The core strategic idea:
+
+"Our company will explore opportunities to connect qualified Chinese AI technology providers with Myanmar businesses. Instead of building our own foundational AI models, we will develop Myanmar-language AI Agent applications using commercially authorised AI APIs and infrastructure, supported by local integration, customer service, training, and maintenance."
+
+This is a proposed opportunity that must be validated, not an already approved project or confirmed partnership.
+
+The website must be persuasive through clear reasoning, but it must remain factual, balanced, and realistic.
+
+---
+
+# 2. NON-NEGOTIABLE LANGUAGE REQUIREMENT
+
+The entire user-facing website must use natural, professional, easy-to-understand Myanmar language.
+
+All visible content must be in Myanmar, including:
+
+- Navigation
+- Section headings
+- Descriptions
+- Instructions
+- Buttons
+- Tooltips
+- Checklists
+- Charts
+- Form labels
+- Validation messages
+- Print labels
+- Source explanations
+- Footer
+- Empty states
+
+Proper names and necessary technology terms such as Hongqiao Tech Week, API, AI Agent, Qwen, DeepSeek, React, and Cloudflare may remain in English.
+
+Always explain technical vocabulary with easy Myanmar examples.
+
+Avoid stiff, unnatural Myanmar translations.
+
+Keep paragraphs short and make information understandable to a non-technical Managing Director.
+
+Use a Myanmar-friendly font such as Noto Sans Myanmar or an equivalent reliable Myanmar Unicode font.
+
+Ensure Myanmar characters, line breaking, and typography render correctly on desktop and mobile.
+
+Do not implement a language switcher. Myanmar is the only UI language.
+
+---
+
+# 3. TECHNOLOGY REQUIREMENTS
+
+Build the application with:
+
+- React
+- TypeScript
+- Vite
+- Responsive CSS with clean reusable design tokens
+- Lucide React icons
+- Local browser storage for interactive states
+- Static hosting compatible with Cloudflare Pages
+
+Use plain CSS or CSS modules. Avoid unnecessary heavy frameworks and dependencies.
+
+There must be:
+
+- No required paid API.
+- No backend dependency.
+- No database requirement.
+- No authentication requirement.
+- No server-side rendering requirement.
+- No external AI API calls.
+- No hardcoded API keys, passwords, or secrets.
+
+The website must run locally and after Cloudflare Pages deployment.
+
+Use a single-page application with simple hash-based navigation or reliable section anchors.
+
+Configure it so users can share links to individual sections.
+
+Ensure all static routes work correctly after deployment.
+
+---
+
+# 4. DESIGN & USER EXPERIENCE
+
+## Visual direction
+
+Create a professional, premium, modern executive presentation dashboard.
+
+The design should feel like an executive strategic briefing, not a crowded software administration panel.
+
+Visual preferences:
+
+- Deep navy as the primary colour.
+- Warm white or off-white backgrounds.
+- Teal/cyan accents for technology.
+- Subtle gold accents for strategy highlights.
+- Soft shadows.
+- Rounded cards.
+- Generous white space.
+- Clear visual hierarchy.
+- Modern iconography.
+- Excellent Myanmar typography.
+
+Avoid excessive gradients, unnecessary animations, and too many distracting elements.
+
+## Layout
+
+Desktop:
+
+- Left sidebar with guided steps.
+- Main content area with large, readable explanations.
+- Small progress indicator.
+- Optional right-side summary panel only when space permits.
+
+Mobile:
+
+- Mobile-first layout.
+- Simple top navigation.
+- Collapsible or horizontally scrollable step navigation.
+- Large touch targets.
+- No horizontal scrolling of the page.
+- Easy reading at approximately 360px, 390px, and tablet widths.
+
+## Two viewing modes
+
+### Mode A — Director Presentation
+
+This is the default mode.
+
+The Director should be able to understand the complete business proposal in approximately 5–8 minutes.
+
+Each screen should contain:
+
+- One clear Myanmar heading.
+- A short explanation.
+- A meaningful diagram or card.
+- Three or fewer main takeaway points.
+- A clear Next Step button.
+
+Provide Previous and Next buttons.
+
+Show progress such as "အဆင့် ၃ / ၇".
+
+Do not automatically advance slides.
+
+### Mode B — Detailed Review
+
+Allow the Director to expand sections to examine:
+
+- Supplier details.
+- Commercial considerations.
+- Evaluation criteria.
+- Risks.
+- Revenue scenarios.
+- Action plan.
+- Source references.
+
+Keep detailed information hidden initially so the main presentation remains easy to understand.
+
+---
+
+# 5. WEBSITE STRUCTURE — SEVEN MAIN STEPS
+
+## STEP 1 — WHY THIS BUSINESS OPPORTUNITY?
+
+Myanmar heading:
+
+"ဒီအခွင့်အလမ်းကို ဘာကြောင့် စဉ်းစားသင့်သလဲ?"
+
+Explain:
+
+- AI technology is increasingly relevant to business automation.
+- International AI companies are widely known.
+- Chinese AI providers also offer model APIs, cloud infrastructure, and business software.
+- Their suitability for Myanmar business applications should be investigated.
+- Myanmar companies need affordable deployment, Myanmar-language support, and integration with local workflows.
+- Our company could provide those services.
+
+Clearly distinguish market hypotheses from verified research.
+
+Do not claim Chinese models are always cheaper, more accurate, or more suitable.
+
+Display three opportunity cards:
+
+1. နည်းပညာအသစ်များ ရှာဖွေခြင်း
+2. မြန်မာလုပ်ငန်းများအတွက် အသုံးချခြင်း
+3. ရေရှည်ဝန်ဆောင်မှုလုပ်ငန်း တည်ဆောက်ခြင်း
+
+Include an interactive Before/After comparison.
+
+Before: A business manually answers customer messages, processes orders, and searches documents.
+
+After: An AI Agent assists staff while humans retain control of important decisions.
+
+Do not imply full automation is appropriate for every task.
+
+---
+
+## STEP 2 — OUR MYANMAR AI ECOSYSTEM VISION
+
+Myanmar heading:
+
+"မြန်မာ AI စီးပွားရေးစနစ်ကို ဘယ်လိုတည်ဆောက်မလဲ?"
+
+Build a clean, interactive visual ecosystem diagram.
+
+Main flow:
+
+Chinese AI Technology Providers
+↓
+Our Company's AI Integration Platform
+↓
+Myanmar-language Business AI Agents
+↓
+Myanmar Business Customers
+
+Clicking each part must show an explanatory Myanmar panel.
+
+Explain our company's responsibilities:
+
+- Technology selection.
+- API integration.
+- Myanmar-language localization.
+- Customer onboarding.
+- Business workflow automation.
+- Security and privacy.
+- Technical support.
+- Training and maintenance.
+
+Provide four practical use-case cards:
+
+### AI Customer Service
+
+Website or messaging chatbot responding to FAQs and retrieving approved business knowledge.
+
+### AI Sales and Order Assistant
+
+Product enquiries, price checking, order collection, and staff notifications.
+
+### AI Document Assistant
+
+PDF knowledge bases, document comparison, and invoice verification.
+
+### AI Workflow Automation
+
+Connecting approved AI functions with order databases, internal systems, and reporting workflows.
+
+Each card needs:
+
+- Business problem.
+- How the AI Agent helps.
+- Example workflow.
+- Business benefits to measure.
+- Operational limitations.
+- Human review requirements.
+
+Use illustrative examples with fictional businesses, not real client claims.
+
+---
+
+## STEP 3 — WHICH CHINESE AI SUPPLIERS DO WE NEED?
+
+Myanmar heading:
+
+"ဘယ်လို တရုတ် AI နည်းပညာမိတ်ဖက်တွေ ရှာဖွေမလဲ?"
+
+Explain three essential sourcing objectives:
+
+1. Supplier Sourcing — နည်းပညာကုမ္ပဏီ ရှာဖွေခြင်း။
+2. Technology Evaluation — နည်းပညာနှင့် ကုန်ကျစရိတ် စစ်ဆေးခြင်း။
+3. Partnership Negotiation — စီးပွားရေးပူးပေါင်းမှု ဆွေးနွေးခြင်း။
+
+Build interactive supplier category cards:
+
+- AI Model and API Providers.
+- Cloud / GPU Infrastructure Providers.
+- AI Agent and Automation Platforms.
+- Myanmar-language Speech and Multimodal AI Providers.
+- Enterprise Integration and Technical Support Partners.
+
+Include a research-target directory with these companies:
+
+- Alibaba Cloud / Qwen
+- DeepSeek
+- Z.ai / GLM
+- Moonshot AI / Kimi
+- MiniMax
+- ByteDance / Volcano Engine
+
+Important:
+
+These are companies to research and potentially contact.
+
+Do not claim that they are confirmed exhibitors, meeting attendees, or approved partners.
+
+Label every entry:
+
+"လေ့လာရန် ရည်ရွယ်ထားသော ကုမ္ပဏီ — ပွဲတွင် ပါဝင်မှု မအတည်ပြုရသေး"
+
+Add official website links where known and verified.
+
+Add supplier partnership-model explanations:
+
+### API Integration
+
+Our company uses authorised AI APIs to build and sell its own applications, subject to API terms.
+
+### Authorised Reseller
+
+Our company obtains explicit contractual rights to resell approved services.
+
+### White-label Partnership
+
+Our company licenses a supplier platform and customizes its branding and deployment, if contractually permitted.
+
+### Managed AI Services
+
+Our company charges for implementation, monitoring, support, maintenance, and training.
+
+Recommend beginning with application integration and managed services, then considering formal channel partnerships after validating demand.
+
+Explain that purchasing an API subscription does not automatically grant reseller or redistribution rights.
+
+---
+
+## STEP 4 — HONGQIAO TECH WEEK ACTION PLAN
+
+Myanmar heading:
+
+"ရှန်ဟိုင်းပွဲမှာ ဘာတွေ လုပ်ဆောင်မလဲ?"
+
+Display the confirmed event information:
+
+- Event: Hongqiao Tech Week 2026.
+- Dates: 20–22 November 2026.
+- Venue: NECC, Shanghai, China.
+- Business Matching and technology exhibition activities.
+
+Use official sources:
+
+https://www.hongqiaotechweek.com/en/
+
+https://www.hongqiaotechweek.com/en/2026-agenda/
+
+https://www.hongqiaotechweek.com/en/networking/
+
+https://www.hongqiaotechweek.com/en/frequently-asked-questions/
+
+Include an important note:
+
+The Business Matching programme may require an eligible pass and meeting approval. Not every visitor automatically receives a private meeting.
+
+Show a three-day planning timeline.
+
+### November 20 — Supplier Discovery
+
+- Visit AI-related exhibition areas.
+- Discover potential AI model and infrastructure suppliers.
+- Attend relevant sessions where pass access permits.
+- Conduct pre-confirmed supplier meetings.
+- Collect technical and commercial information.
+
+### November 21 — Technology Evaluation
+
+- Compare models and APIs.
+- Request a live product demonstration.
+- Discuss Myanmar-language capability.
+- Ask about commercial use in Myanmar.
+- Request API pricing and service documentation.
+
+### November 22 — Partnership Discussions
+
+- Revisit shortlisted suppliers.
+- Discuss pilot projects.
+- Ask about partnership agreements and commercial terms.
+- Agree on follow-up meetings.
+- Record next actions.
+
+Clearly label these activities as our proposed itinerary, not confirmed appointments.
+
+Add a meeting preparation checklist with editable checkboxes.
+
+---
+
+## STEP 5 — SUPPLIER EVALUATION
+
+Myanmar heading:
+
+"ဘယ် Supplier ကို ရွေးချယ်သင့်သလဲ?"
+
+Create a fully functional supplier comparison tool.
+
+Allow users to add and evaluate at least three suppliers.
+
+Each supplier should have:
+
+- Company name.
+- Product/service.
+- Website.
+- Contact name.
+- Contact details.
+- Meeting status.
+- Notes.
+- Next action.
+
+Use this 100-point weighted scorecard:
+
+1. Myanmar-language performance — 20 points.
+2. AI Agent and API capabilities — 20 points.
+3. Commercial and partnership terms — 20 points.
+4. Security, privacy, and data governance — 15 points.
+5. Reliability and technical support — 15 points.
+6. Myanmar market compatibility — 10 points.
+
+Provide an interactive score selector for each criterion.
+
+Calculate the total automatically.
+
+Show a comparison table and visual score indicators.
+
+Add mandatory eligibility checks:
+
+- Commercial service to Myanmar is permitted.
+- Contract and API usage rights are clear.
+- Payment and invoicing arrangements are workable.
+- Confidential customer data can be handled appropriately.
+- Required legal, sanctions, and export-control review can be completed.
+
+A supplier must not be labelled "Approved" solely because of a high score.
+
+If a mandatory eligibility check is not passed, display:
+
+"ထပ်မံစစ်ဆေးရန် လိုအပ်သည်"
+
+Add buttons for:
+
+- Save locally.
+- Copy summary.
+- Export evaluation report.
+- Reset a supplier evaluation with confirmation.
+
+Use browser localStorage.
+
+Explain clearly that locally saved notes remain in the current browser/device and are not automatically synchronized between users.
+
+Do not publish sensitive meeting notes by default.
+
+---
+
+## STEP 6 — BUSINESS MODEL, BUDGET AND IMPLEMENTATION
+
+Myanmar heading:
+
+"ဒီလုပ်ငန်းက ဘယ်လိုဝင်ငွေရနိုင်မလဲ?"
+
+First, explain possible revenue sources:
+
+- One-time setup fees.
+- Monthly AI Agent subscriptions.
+- Custom business integration.
+- Training and support services.
+- Enterprise maintenance contracts.
+- Approved reseller revenues, when authorised.
+
+Create an interactive financial scenario calculator.
+
+Inputs:
+
+- Number of business customers.
+- Monthly subscription per customer.
+- Conversations per business per month.
+- Model calls per conversation.
+- Average input tokens per model call.
+- Average output tokens per model call.
+- Input API cost per 1 million tokens.
+- Output API cost per 1 million tokens.
+- Monthly hosting and other operating expenses.
+
+Calculate:
+
+Monthly revenue =
+Business customers × Monthly subscription.
+
+Total model calls =
+Business customers × Conversations per business × Calls per conversation.
+
+Total input tokens =
+Total model calls × Input tokens per call.
+
+Total output tokens =
+Total model calls × Output tokens per call.
+
+Estimated API cost =
+(Input tokens ÷ 1,000,000 × Input rate)
++ (Output tokens ÷ 1,000,000 × Output rate).
+
+Estimated monthly contribution =
+Revenue − API cost − Other monthly operating expenses.
+
+Add a clear disclaimer:
+
+"ဤတွက်ချက်မှုသည် စီမံကိန်းအတွက် ခန့်မှန်းတွက်ချက်မှုသာဖြစ်ပြီး အမှန်တကယ်အမြတ်ငွေကို အာမခံခြင်း မဟုတ်ပါ။"
+
+Do not present illustrative API rates as current provider quotations.
+
+Use editable assumptions and clearly identify any sample values.
+
+Explain that salaries, taxes, customer acquisition, support, security, and other costs may not be fully represented.
+
+Include an implementation roadmap:
+
+November 2026 — Supplier discovery and evaluation.
+
+December 2026 — Technical proof of concept.
+
+January–February 2027 — Controlled pilot with approximately 5–10 businesses.
+
+After pilot approval — Gradual commercial launch.
+
+Label all future milestones as proposed targets.
+
+Also include a risk register with:
+
+- Myanmar geographic and contractual service restrictions.
+- Data privacy and cross-border processing.
+- Myanmar-language answer quality.
+- API reliability.
+- Currency and payment arrangements.
+- Export-control and legal compliance.
+- Vendor lock-in.
+- Customer adoption and support cost.
+
+Allow the Director to expand each risk to see its proposed mitigation.
+
+---
+
+## STEP 7 — DIRECTOR DECISION AND APPROVAL
+
+Myanmar heading:
+
+"ဒါရိုက်တာထံမှ ဘာအတည်ပြုချက် လိုအပ်သလဲ?"
+
+Build a final executive decision dashboard.
+
+Show three strategic approvals.
+
+### Approval 1 — Supplier Discovery
+
+Approve the proposed sourcing priorities and relevant business matchmaking activities.
+
+### Approval 2 — Technical Evaluation
+
+Approve preparation of a separately costed, small proof-of-concept proposal after collecting supplier information.
+
+### Approval 3 — Controlled Business Pilot
+
+Consider pilot funding only after supplier qualification, technical testing, and commercial feasibility review.
+
+Clearly state that this briefing does not authorise signing contracts, paying deposits, making exclusivity commitments, or deploying customer-sensitive data.
+
+Build an interactive Director Review Checklist:
+
+- Business vision understood.
+- Target suppliers understood.
+- Partnership models reviewed.
+- Risks and limitations reviewed.
+- Pilot approach reviewed.
+- Additional information required.
+
+Add a free-text field for Director comments.
+
+The Director can mark:
+
+- စိတ်ဝင်စားသည်
+- ထပ်မံဆွေးနွေးလိုသည်
+- အချက်အလက် ထပ်မံလိုအပ်သည်
+
+These are local review indicators, not formal digital signatures or binding approvals.
+
+Allow the Director to copy or export a review summary.
+
+Provide a prominent final message:
+
+"ကျွန်ုပ်တို့၏ ရည်မှန်းချက်သည် AI နည်းပညာကို ဝယ်ယူအသုံးပြုရုံသာမက မြန်မာ့စီးပွားရေးလုပ်ငန်းများအတွက် အသုံးဝင်ပြီး ရေရှည်တည်တံ့နိုင်သော AI ဝန်ဆောင်မှုစနစ်တစ်ခု တည်ဆောက်ရန် ဖြစ်သည်။"
+
+---
+
+# 6. ADDITIONAL INTERACTIVE FEATURES
+
+Implement these meaningful features:
+
+## Guided step navigation
+
+Seven steps with Previous / Next navigation.
+
+Use section-specific shareable URLs.
+
+## Progress tracking
+
+Allow a reviewer to mark sections as reviewed.
+
+Save progress in localStorage.
+
+## Interactive ecosystem flow
+
+Click on each technology layer to read Myanmar explanations.
+
+## Supplier comparison
+
+Add, edit, compare, and export supplier evaluations.
+
+## Financial scenario calculator
+
+Update estimates immediately when inputs change.
+
+## Presentation mode
+
+Provide a focused, distraction-free reading mode.
+
+## Print-friendly report
+
+Create print CSS so the Director can print the business proposal from the browser.
+
+Use proper A4 page layout.
+
+Avoid clipped Myanmar text or broken content sections.
+
+## Reference sources
+
+Create an expandable "ကိုးကားထားသော အချက်အလက်များ" section with clickable source links and a "နောက်ဆုံးစစ်ဆေးသည့်နေ့" date.
+
+## Review controls
+
+Allow local progress and comments without a login.
+
+Explain that these do not sync between devices.
+
+All controls must work. Avoid buttons that do nothing.
+
+---
+
+# 7. CONTENT QUALITY REQUIREMENTS
+
+Write substantive Myanmar-language content directly into the application.
+
+Do not use placeholder text like "Lorem ipsum".
+
+Do not build an empty dashboard requiring the user to enter the entire proposal.
+
+Use concrete business examples.
+
+Make all commercial claims appropriately qualified.
+
+Clearly separate:
+
+- Confirmed event facts.
+- Proposed business strategies.
+- Hypothetical financial scenarios.
+- Potential partners whose participation is unconfirmed.
+- Decisions awaiting management approval.
+
+Do not invent confirmed supplier meetings, commercial pricing agreements, organiser endorsements, or business approvals.
+
+Do not use copyrighted company logos without verified permission. Text-based company cards are acceptable.
+
+Include an independent-project disclaimer in the footer:
+
+"ဤဝက်ဘ်ဆိုက်သည် ကုမ္ပဏီအတွင်း မဟာဗျူဟာဆွေးနွေးရန် ပြင်ဆင်ထားသော အစီအစဉ်ဖြစ်ပြီး Hongqiao Tech Week ၏ တရားဝင်ဝက်ဘ်ဆိုက် မဟုတ်ပါ။"
+
+---
+
+# 8. SUGGESTED PROJECT STRUCTURE
+
+Create a maintainable structure resembling:
+
+myanmar-ai-bridge/
+- public/
+- src/
+  - components/
+    - Layout
+    - Sidebar
+    - StepNavigation
+    - ProgressTracker
+    - EcosystemDiagram
+    - SupplierScorecard
+    - FinancialCalculator
+    - DirectorReview
+  - sections/
+    - Opportunity
+    - Vision
+    - SupplierStrategy
+    - EventPlan
+    - SupplierEvaluation
+    - BusinessModel
+    - DirectorApproval
+  - data/
+    - content
+    - supplierTargets
+    - eventSources
+  - hooks/
+    - useLocalStorage
+  - utils/
+    - calculations
+    - formatting
+  - styles/
+  - App.tsx
+  - main.tsx
+- index.html
+- package.json
+- tsconfig.json
+- vite.config.ts
+- README.md
+
+You may improve the structure if appropriate.
+
+Prefer structured content objects rather than duplicating large content strings inside JSX.
+
+---
+
+# 9. ACCESSIBILITY AND PERFORMANCE
+
+Ensure:
+
+- Mobile responsiveness.
+- Keyboard navigation.
+- Readable contrast.
+- Accessible buttons and labels.
+- Semantic HTML.
+- Visible focus indicators.
+- Reduced-motion support.
+- Lightweight assets.
+- No unnecessary network requests.
+- Proper Myanmar text rendering.
+- Error-free production build.
+- Clear zero/empty states.
+- Defensive validation for calculator inputs.
+- Safe export of user-entered text.
+
+Do not use browser alerts for routine interactions when better inline feedback is available.
+
+Provide a usable no-JavaScript fallback message.
+
+---
+
+# 10. CLOUDFLARE PAGES DEPLOYMENT
+
+The final application must be compatible with Cloudflare Pages GitHub integration.
+
+Use the standard build:
+
+Build command: `npm run build`
+
+Build output directory: `dist`
+
+Production branch: `main`
+
+Node.js: compatible with a current supported LTS release.
+
+Do not require Cloudflare Workers, Pages Functions, secrets, or a server runtime.
+
+Provide clear Windows 11 PowerShell instructions in README.md:
+
+1. Install required software.
+2. Install project dependencies.
+3. Start the development server.
+4. Open the website locally.
+5. Run the production build.
+6. Publish the repository using GitHub Desktop.
+7. Connect GitHub repository to Cloudflare Pages.
+8. Configure the build command and output directory.
+9. Deploy the website.
+10. Obtain the `pages.dev` website URL.
+11. Update the website after deployment by pushing to GitHub.
+
+Do not automatically create a public GitHub repository or push unpublished content without explicit user approval.
+
+---
+
+# 11. IMPLEMENTATION AND TESTING
+
+Do not stop after writing a plan.
+
+Actually implement the website.
+
+Follow this order:
+
+1. Inspect the existing project if one is present.
+2. Initialize the project if necessary.
+3. Build the design system and layout.
+4. Implement all seven sections.
+5. Implement the interactive components.
+6. Add the required Myanmar-language content.
+7. Add responsive styling.
+8. Implement localStorage persistence.
+9. Implement print styling.
+10. Implement calculator logic and supplier scoring.
+11. Add basic unit tests for calculations and supplier scoring.
+12. Run dependency installation.
+13. Run TypeScript and lint checks.
+14. Run the production build.
+15. Fix any errors found.
+16. Check mobile and desktop layouts if browser preview tools are available.
+17. Write the deployment README.
+
+All seven steps must be implemented and navigable.
+
+The supplier comparison and business calculator must contain real working logic, not decorative controls.
+
+If tools or permissions prevent testing, state exactly what remains unverified.
+
+---
+
+# 12. FINAL DELIVERABLES
+
+Provide:
+
+1. Complete working React + TypeScript source code.
+2. Responsive Myanmar-only website.
+3. All seven interactive presentation steps.
+4. Working supplier evaluation.
+5. Working business calculator.
+6. Director review controls.
+7. Printable business report.
+8. Cloudflare Pages-ready production build.
+9. Myanmar-language README.
+10. Verified build/test results.
+11. Clear GitHub Desktop and Cloudflare Pages deployment instructions.
+
+When finished, explain in Myanmar:
+
+- What has been built.
+- How to run it on Windows 11.
+- How to deploy it on Cloudflare Pages.
+- How to share the website URL with the Director.
+- How to update the plan later.
+
+## FINAL SUCCESS CONDITION
+
+The Managing Director should be able to open one website link on a phone, tablet, or computer, understand the proposed Myanmar AI Business Ecosystem strategy in Myanmar language, review it step by step, explore the business model and risks, and return to the same website whenever convenient.
+
+**Start implementing now. Do not deliver only a project plan, pseudocode, or screenshots.**

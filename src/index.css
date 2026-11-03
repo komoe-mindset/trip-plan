@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Noto Sans Myanmar', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.65;
+  }
+}
+
+/* Custom Print Styles for Executive A4 Report */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* Reset shadows and borders for clean paper printing */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .card-print {
+    border: 1px solid #d1d5db !important;
+    background: #ffffff !important;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}
